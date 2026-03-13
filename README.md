@@ -2,6 +2,10 @@
 
 Python desktop GUI application for customer segmentation using RFM (Recency, Frequency, Monetary) analysis.
 
+## Screenshot
+
+![RFM Tool](screenshot.png)
+
 ## Features
 
 • Load e-commerce orders CSV
@@ -28,10 +32,6 @@ XlsxWriter
 3. View customer segments chart
 4. Export Excel report
 5. Export PDF report
-
-## Screenshot
-
-![RFM Tool](screenshot.png)
 
 ## Example Use Cases
 
