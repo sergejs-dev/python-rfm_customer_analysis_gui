@@ -14,11 +14,11 @@ Python desktop GUI application for customer segmentation using RFM (Recency, Fre
 
 ## Technologies
 
--Python
-Pandas
-CustomTkinter
-Matplotlib
-ReportLab
+Python|
+Pandas|
+CustomTkinter|
+Matplotlib|
+ReportLab|
 XlsxWriter
 
 ## Example Workflow
