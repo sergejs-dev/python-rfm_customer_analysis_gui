@@ -14,7 +14,7 @@ Python desktop GUI application for customer segmentation using RFM (Recency, Fre
 
 ## Technologies
 
-Python
+-Python
 Pandas
 CustomTkinter
 Matplotlib
