@@ -1,6 +1,20 @@
 # RFM Customer Analysis Tool
 
 Python desktop GUI application for customer segmentation using RFM (Recency, Frequency, Monetary) analysis.
+## Quick Test (No Python Required)
+
+Download the executable version:
+
+➡ **Download EXE:** https://github.com/sergejs-dev/python-rfm_customer_analysis_gui/releases/latest
+
+### Demo Dataset
+
+A sample dataset is included:
+
+sample_data/orders_data.csv
+
+Use this file to quickly test the RFM analysis tool.
+
 
 ## Screenshot
 
