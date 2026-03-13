@@ -6,6 +6,18 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from exporters.excel_exporter import export_excel
 from rfm_engine import load_data, calculate_rfm, create_segments
 from exporters.pdf_exporter import export_pdf
+import sys
+import os
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+
+
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -20,7 +32,7 @@ class RFMApp(ctk.CTk):
         self.geometry("1000x950")
 
         try:
-            self.iconbitmap("assets/icon.ico")
+            self.iconbitmap(resource_path("assets/icon.ico"))
         except:
             pass
 

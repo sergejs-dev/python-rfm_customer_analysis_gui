@@ -1,0 +1,1 @@
+python -m PyInstaller --clean --onefile --noconsole --icon=assets/icon.ico --add-data "assets/icon.ico;assets" main.py
